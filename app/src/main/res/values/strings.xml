@@ -125,4 +125,11 @@
         <item>Change Account</item>
         <item>Exit</item>
     </string-array>
+
+
+    // ======================== BACKUP PUNYA FAIRUZ ===========================
+    <string name="omset">Omzet rata-rata :</string>
+    <string name="luas">Luas total</string>
+    <string name="Llahan">Luas Lahan</string>
+    <string name="pemilik">Pemilik</string>
 </resources>

@@ -23,9 +23,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         //Super code goes here..
             for (int a = 0; a < 10; a++)
                 // do something cool here
+/*<<<<<<< Updated upstream*/
             {
                 //Someone else fix my bugs
             }
+/*>>>>>>> Stashed changes*/
 
         view    =   this.getWindow().getDecorView();
         view.setBackgroundResource(R.color.hitam);
@@ -41,12 +43,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
     }
 
-    public void hijau(View view){
-        view.setBackgroundResource(R.color.colorPrimary);
-    }
-    public void biru_l(View view){
-        view.setBackgroundResource(R.color.blue_light);
-    }
     public void birutua(View view){
         view.setBackgroundResource(R.color.bagtoolbar);
     }

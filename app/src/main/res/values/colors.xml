@@ -47,7 +47,16 @@
 
 
 
-
+    //  =================================== BACKUP PUNYA FAIRUZ ========================//
+    <color name="bfont">#6a6a6a</color>
+    <color name="txtgray">#535454</color>
+    <color name="txtblack">#535454</color>
+    <color name="bg">#f6f7f7</color>
+    <color name="lgreen">#a9cf37</color>
+    <color name="green">#76bf43</color>
+    <color name="darkgreen">#4e9844</color>
+    <color name="yellow">#e8e63a</color>
+    <color name="btnblue">#249e95</color>
 
 
 

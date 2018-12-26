@@ -2,15 +2,492 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/green_light"
+    android:background="@color/bagfragdas"
     >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Pertanian Fragment"
-        android:textColor="@color/hitam"
-        android:textSize="35sp" />
+    <include
+        layout="@layout/toolbarpertanian" />
 
-</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/padi"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="5pt"
+        android:background="@color/putih"
+        android:onClick="bukaPadi">
+
+        <LinearLayout
+            android:layout_width="8pt"
+            android:layout_height="99dp"
+            android:background="@color/lgreen"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8pt">
+
+            <TextView
+                android:layout_width="70pt"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5pt"
+                android:paddingTop="5dp"
+                android:text="Padi"
+                android:textAllCaps="false"
+                android:textColor="@color/bfont"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8pt"
+                android:gravity="end"
+                android:paddingTop="15dp"
+                android:text="6 Desa,10 Pemilik"
+                android:textAlignment="textEnd"
+                android:textColor="@color/bfont"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8pt"
+            android:layout_marginTop="25dp">
+
+            <TextView
+                android:layout_width="53pt"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5pt"
+                android:paddingTop="5dp"
+                android:text="@string/luas"
+                android:textAllCaps="false"
+                android:textColor="@color/bfont"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="5pt"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text=":"
+                android:textAllCaps="false"
+                android:textColor="@color/bfont"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8pt"
+                android:paddingTop="15dp"
+                android:text="15,5 ha"
+                android:textColor="@color/bfont"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8pt"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5pt"
+                android:paddingTop="5dp"
+                android:text="@string/omset"
+                android:textAllCaps="false"
+                android:textColor="@color/bfont"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8pt"
+                android:paddingTop="15dp"
+                android:text="Rp 12 juta / ha"
+                android:textColor="@color/bfont"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="5pt"
+        android:background="@color/putih">
+
+        <LinearLayout
+            android:layout_width="8pt"
+            android:layout_height="99dp"
+            android:background="@color/yellow">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8pt">
+
+            <TextView
+                android:layout_width="70pt"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5pt"
+                android:paddingTop="5dp"
+                android:text="Jagung"
+                android:textAllCaps="false"
+                android:textColor="@color/bfont"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textEnd"
+                android:layout_gravity="end"
+                android:layout_marginLeft="8pt"
+                android:paddingTop="15dp"
+                android:text="3 Desa,4 Pemilik"
+                android:textColor="@color/bfont"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8pt"
+            android:layout_marginTop="25dp">
+
+            <TextView
+                android:layout_width="53pt"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5pt"
+                android:paddingTop="5dp"
+                android:text="@string/luas"
+                android:textAllCaps="false"
+                android:textColor="@color/bfont"
+                android:textSize="14sp" />
+            <TextView
+                android:layout_width="5pt"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text=":"
+                android:textAllCaps="false"
+                android:textColor="@color/bfont"
+                android:textSize="14sp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8pt"
+                android:paddingTop="15dp"
+                android:text="10,8 ha"
+                android:textColor="@color/bfont"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8pt"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5pt"
+                android:paddingTop="5dp"
+                android:text="@string/omset"
+                android:textAllCaps="false"
+                android:textColor="@color/bfont"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8pt"
+                android:paddingTop="15dp"
+                android:text="Rp 10 juta / ha"
+                android:textColor="@color/bfont"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5pt"
+        android:layout_marginBottom="176dp"
+        android:background="@color/putih">
+
+        <LinearLayout
+            android:layout_width="8pt"
+            android:layout_height="99dp"
+            android:background="@color/green">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8pt">
+
+            <TextView
+                android:layout_width="70pt"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5pt"
+                android:paddingTop="5dp"
+                android:text="Singkong"
+                android:textAllCaps="false"
+                android:textColor="@color/bfont"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textEnd"
+                android:layout_gravity="end"
+                android:layout_marginLeft="8pt"
+                android:paddingTop="15dp"
+                android:text="3 Desa,5 Pemilik"
+                android:textColor="@color/bfont"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8pt"
+            android:layout_marginTop="25dp">
+
+            <TextView
+                android:layout_width="53pt"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5pt"
+                android:paddingTop="5dp"
+                android:text="@string/luas"
+                android:textAllCaps="false"
+                android:textColor="@color/bfont"
+                android:textSize="14sp" />
+            <TextView
+                android:layout_width="5pt"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text=":"
+                android:textAllCaps="false"
+                android:textColor="@color/bfont"
+                android:textSize="14sp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8pt"
+                android:paddingTop="15dp"
+                android:text="11,6 ha"
+                android:textColor="@color/bfont"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8pt"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5pt"
+                android:paddingTop="5dp"
+                android:text="@string/omset"
+                android:textAllCaps="false"
+                android:textColor="@color/bfont"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8pt"
+                android:paddingTop="15dp"
+                android:text="Rp 8 juta / ha"
+                android:textColor="@color/bfont"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5pt"
+        android:layout_marginBottom="61dp"
+        android:background="@color/putih">
+
+        <LinearLayout
+            android:layout_width="8pt"
+            android:layout_height="99dp"
+            android:background="@color/darkgreen"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8pt">
+
+            <TextView
+                android:layout_width="70pt"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5pt"
+                android:paddingTop="5dp"
+                android:text="Tebu"
+                android:textAllCaps="false"
+                android:textColor="@color/bfont"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textEnd"
+                android:layout_gravity="end"
+                android:layout_marginLeft="8pt"
+                android:layout_marginStart="8pt"
+                android:paddingTop="15dp"
+                android:text="2 Desa,3 Pemilik"
+                android:textColor="@color/bfont"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8pt"
+            android:layout_marginTop="25dp">
+
+            <TextView
+                android:layout_width="53pt"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5pt"
+                android:paddingTop="5dp"
+                android:text="@string/luas"
+                android:textAllCaps="false"
+                android:textColor="@color/bfont"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="5pt"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text=":"
+                android:textAllCaps="false"
+                android:textColor="@color/bfont"
+                android:textSize="14sp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8pt"
+                android:paddingTop="15dp"
+                android:text="7 ha"
+                android:textColor="@color/bfont"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8pt"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5pt"
+                android:paddingTop="5dp"
+                android:text="@string/omset"
+                android:textAllCaps="false"
+                android:textColor="@color/bfont"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8pt"
+                android:paddingTop="15dp"
+                android:text="Rp 7 juta / ha"
+                android:textColor="@color/bfont"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    </RelativeLayout>
