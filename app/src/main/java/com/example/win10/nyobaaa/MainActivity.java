@@ -22,10 +22,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         //Super code goes here..
             for (int a = 0; a < 10; a++)
-            {
                 // do something cool here
-
-        }
+            {
+                //Someone else fix my bugs
+            }
 
         view    =   this.getWindow().getDecorView();
         view.setBackgroundResource(R.color.hitam);
