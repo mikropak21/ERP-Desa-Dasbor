@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#0094fd</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="putih">#fff</color>
+    <color name="blue_light">#26abe4</color>
+    <color name="hitam">#000</color>
+    <color name="drkblue">#0b2f3b</color>
+    <color name="red_light">#ff5643</color>
+    <color name="green_light">#4dab53</color>
+    <color name="bagtoolbar">#104454</color>
+    <color name="abu2">#c5c3c3</color>
+    <color name="bagfragdas">#f6f7f7</color>
+    <color name="padigrafik">#a9cf37</color>
+    <color name="shadow">#d0d9b5</color>
+    <color name="yellow_light">#e8e63a</color>
+    <color name="green_muda">#76bf43</color>
+    <color name="green_tua">#4e9844</color>
+    <color name="coklat">#9a7c2d</color>
+    <color name="warna_gandum">#d3d22d</color>
+    <color name="orange">#d09a2d</color>
+    <color name="jatijodo">#9f7d2d</color>
+    <color name="mahoni">#a98e56</color>
+    <color name="karet">#dac196</color>
+    <color name="kamper">#edc977</color>
+    <color name="kadu">#826a39</color>
+    <color name="rotar">#9f7d2d</color>
+
+
+    // ====================================================================== //
+    <color name="albasiah">#6dbd45</color>
+    <color name="duku">#e7e488</color>
+    <color name="kapulaga">#93be42</color>
+    <color name="kelapa">#4e9844</color>
+    <color name="manggis">#9a7c2d</color>
+    <color name="bayam">#54b850</color>
+    <color name="wortel">#d07c2c</color>
+
+    <color name="sapi">#dac196</color>
+    <color name="kambing">#716b5d</color>
+    <color name="ayam">#7d3d33</color>
+    <color name="lele">#3f3a32</color>
+    <color name="bebek">#74924b</color>
+    <color name="domba">#b9b9b9</color>
+    <color name="kuda">#836126</color>
+
+
+
+
+
+
+
+
+</resources>

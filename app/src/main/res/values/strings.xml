@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">sidebar </string>
+    <string name="name">Ahmed NR</string>
+    <string name="dasbor">Dasbord</string>
+    <string name="pertanian">Pertanian</string>
+    <string name="perkebunan">Perkebunan</string>
+    <string name="perhutanan">Perhutanan</string>
+    <string name="peternakan">Peternakan</string>
+    <string name="pemiliklahan">Pemilik Lahan</string>
+    <string name="desa">Desa</string>
+    <string name="peta">Peta</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="bantuan">Bantuan dan Umpan Balik</string>
+    <string name="search">Cari</string>
+    <string name="btn1">Luas Lahan</string>
+    <string name="btn2">Omzet</string>
+    <string name="btn3">Tenaga Kerja</string>
+    <string name="lthdtl">Lihat Detail</string>
+
+    //GRAFIK PERTANIAN
+    <string name="uku1">16 ha</string>
+    <string name="uku2">14 ha</string>
+    <string name="uku3">12 ha</string>
+    <string name="uku4">10 ha</string>
+    <string name="uku5">8 ha</string>
+    <string name="uku6">6 ha</string>
+    <string name="uku7">4 ha</string>
+    <string name="uku8">2 ha</string>
+
+    <string name="padi">Padi</string>
+    <string name="jagung">Jagung</string>
+    <string name="singkong">Singkong</string>
+    <string name="tebu">Tebu</string>
+    <string name="kentang">Kentang</string>
+    <string name="gandum">Gandum</string>
+    <string name="ubi">Ubi</string>
+
+    <string name="grapadi">15,5</string>
+    <string name="grajagu">10,8</string>
+    <string name="grasing">11,6</string>
+    <string name="gratebu">7</string>
+    <string name="graken">9,6</string>
+    <string name="gragan">6,1</string>
+    <string name="graubi">6,23</string>
+    //AKHIR DARI GRAFIK PERTANIAN
+
+    //GRAFIK PERHUTANAN
+    <string name="jati">Jati</string>
+    <string name="jatidodo">Jati Dodo</string>
+    <string name="mahoni">Mahoni</string>
+    <string name="karet">Karet</string>
+    <string name="kamper">Kamper</string>
+    <string name="kadu">Kadu</string>
+    <string name="rotar">Rotar</string>
+
+    <string name="per1">14,4</string>
+    <string name="per2">13,5</string>
+    <string name="per3">13,9</string>
+    <string name="per4">15,6</string>
+    <string name="per5">9,8</string>
+    <string name="per6">10,4</string>
+    <string name="per7">8</string>
+    //AKHIR DARI GRAFIK PERTANIAN
+
+    //GRAFIK PERKEBUNAN
+    <string name="albasiah">Albasiah</string>
+    <string name="duku">Duku</string>
+    <string name="kapulaga">Kapulaga</string>
+    <string name="kelapa">Kelapa</string>
+    <string name="manggis">Manggis</string>
+    <string name="bayam">Bayam</string>
+    <string name="wortel">Wortel</string>
+
+    <string name="ker1">8,8</string>
+    <string name="ker2">11,6</string>
+    <string name="ker3">8,2</string>
+    <string name="ker4">14,2</string>
+    <string name="ker5">5,7</string>
+    <string name="ker6">4,4</string>
+    <string name="ker7">8</string>
+    //AKHIR DARI GRAFIK PERTANIAN
+
+    //GRAFIK PETERNAKAN
+    <string name="sapi">Sapi</string>
+    <string name="kambing">Kambing</string>
+    <string name="ayam">Ayamh</string>
+    <string name="lele">Lele</string>
+    <string name="bebek">Bebek</string>
+    <string name="domba">Domba</string>
+    <string name="kuda">Kuda</string>
+
+    <string name="ter1">3,85</string>
+    <string name="ter2">2,61</string>
+    <string name="ter3">1,8</string>
+    <string name="ter4">1,11</string>
+    <string name="ter5">1,2</string>
+    <string name="ter6">1,67</string>
+    <string name="ter7">1,3</string>
+
+    <string name="kan1">4 ha</string>
+    <string name="kan2">3,5 ha</string>
+    <string name="kan3">3 ha</string>
+    <string name="kan4">2,5 ha</string>
+    <string name="kan5">2 ha</string>
+    <string name="kan6">1,5 ha</string>
+    <string name="kan7">1 ha</string>
+    <string name="kan8">0,5 ha</string>
+    //AKHIR DARI GRAFIK PERTANIAN
+
+
+
+    <string name="skilas">Sekilas Total</string>
+    <string name="jmllahan">49 Lahan</string>
+    <string name="jmlpemilih">39 Pemilik</string>
+    <string name="jmllahansiap">4 Lahan Siap Panen</string>
+    <string name="jmlkomoditas">21 Ragam Komoditas</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string-array name="pilsting">
+        <item>Profil</item>
+        <item>Account Details</item>
+        <item>Loq out</item>
+        <item>Change Account</item>
+        <item>Exit</item>
+    </string-array>
+</resources>

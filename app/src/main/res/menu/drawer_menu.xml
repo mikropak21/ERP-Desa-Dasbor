@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dasbor"
+            android:icon="@mipmap/dasssbor"
+            android:title="@string/dasbor"
+            />
+        <item
+            android:id="@+id/nav_pertanian"
+            android:icon="@mipmap/perrtanian"
+            android:title="@string/pertanian"
+            />
+        <item
+            android:id="@+id/nav_perkebunan"
+            android:icon="@mipmap/perrkeebunaan"
+            android:title="@string/perkebunan"
+            />
+        <item
+            android:id="@+id/nav_perhutanan"
+            android:icon="@mipmap/perrhuutanaaan"
+            android:title="@string/perhutanan"
+            />
+        <item
+            android:id="@+id/nav_peternakan"
+            android:icon="@mipmap/peterrnakaaann"
+            android:title="@string/peternakan"
+            />
+        <item
+            android:id="@+id/nav_pemiliklahan"
+            android:icon="@mipmap/pemilikkklaahan"
+            android:title="@string/pemiliklahan"
+            />
+        <item
+            android:id="@+id/nav_desa"
+            android:icon="@mipmap/ic_launcher_foreground"
+            android:title="@string/desa"
+            />
+        <item
+            android:id="@+id/nav_peta"
+            android:icon="@mipmap/peetaaa"
+            android:title="@string/peta"
+            />
+
+
+    </group>
+
+    <item>
+        <menu>
+            <item
+                android:id="@+id/nav_video"
+                android:icon="@drawable/ic_pengaturan"
+                android:title="@string/pengaturan"
+                />
+            <item
+                android:id="@+id/nav_shopping"
+                android:icon="@drawable/ic_help"
+                android:title="@string/bantuan"
+                />
+        </menu>
+    </item>
+
+
+
+
+
+</menu>
