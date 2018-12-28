@@ -1,5 +1,6 @@
 package com.example.win10.nyobaaa;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -10,12 +11,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.RelativeLayout;
 
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
     View view;
     private DrawerLayout drawer;
-
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
@@ -41,6 +42,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
     }
 
+
+
     // Mengatur Button Warna setelah di pencet (On Click)
     public void birutua(View view){
         view.setBackgroundResource(R.color.bagtoolbar);
@@ -57,8 +60,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         new dasbor_fragment()).commit();
                 break;
             case R.id.nav_pertanian:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new pertanian_fragment()).commit();
+                Intent page2 = new Intent(getApplicationContext(),MainActivity4.class);
+                startActivity(page2);
                 break;
             case R.id.nav_perkebunan:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,

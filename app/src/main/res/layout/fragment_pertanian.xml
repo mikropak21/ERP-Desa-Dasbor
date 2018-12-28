@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/bagfragdas"
-    >
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
     <include
         layout="@layout/toolbarpertanian" />
 
     <RelativeLayout
-        android:id="@+id/padi"
+        android:id="@+id/onclickpad"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="66dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="5pt"
         android:background="@color/putih"
-        android:onClick="bukaPadi">
+        android:onClick="onclickpad">
 
         <LinearLayout
             android:layout_width="8pt"
             android:layout_height="99dp"
-            android:background="@color/lgreen"></LinearLayout>
+            android:background="@color/lgreen">
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -134,7 +136,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="183dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="5pt"
         android:background="@color/putih">
 
@@ -253,9 +255,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="5pt"
-        android:layout_marginBottom="176dp"
         android:background="@color/putih">
 
         <LinearLayout
@@ -371,10 +372,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
         android:layout_marginStart="11dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="5pt"
         android:layout_marginBottom="61dp"
         android:background="@color/putih">
@@ -382,7 +381,8 @@
         <LinearLayout
             android:layout_width="8pt"
             android:layout_height="99dp"
-            android:background="@color/darkgreen"></LinearLayout>
+            android:background="@color/darkgreen">
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -490,4 +490,4 @@
 
     </RelativeLayout>
 
-    </RelativeLayout>
+    </LinearLayout>

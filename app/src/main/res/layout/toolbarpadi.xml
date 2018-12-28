@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/bagtoolbar"
+    android:elevation="4dp">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_menu_black_24dp"
+        android:background="@color/bagtoolbar"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/padi"
+        android:textColor="@color/putih"
+        android:textSize="25sp"
+        android:layout_marginLeft="50dp"/>
+
+    <SearchView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/search"
+        android:layout_marginLeft="150dp"
+        android:searchIcon="@drawable/search_white"
+        />
+
+
+
+
+</android.support.v7.widget.Toolbar>
