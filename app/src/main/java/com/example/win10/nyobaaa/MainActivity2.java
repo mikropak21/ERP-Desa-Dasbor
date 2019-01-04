@@ -2,6 +2,7 @@ package com.example.win10.nyobaaa;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.RelativeLayout;
@@ -26,8 +27,20 @@ public class MainActivity2 extends AppCompatActivity
                 bukaPemilik();
             }
         });
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                bukaTambah();
+            }
+        });
 
     }
+    public void bukaTambah(){
+        Intent tambah = new Intent(getApplicationContext(),TambahActivity.class);
+        startActivity(tambah);
+    }
+
     public void bukaPemilik(){
 
         // Memasukan konten dan fungsion yang berapa pada mainactivity3

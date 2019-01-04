@@ -2,6 +2,7 @@ package com.example.win10.nyobaaa;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
+import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -28,6 +29,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         // Menginisasi Drawer Layout dan ActionBarToggle
         drawer = findViewById(R.id.drawer_layout);
 
+//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+//        fab.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                bukaTambah();
+//            }
+//        });
+
         // Menginisiasi  NavigationView
         NavigationView navigationView = findViewById(R.id.nav_view);
         //Mengatur Navigasi View Item yang akan dipanggil untuk menangani item klik menu navigasi
@@ -42,6 +51,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
     }
 
+    public void bukaPertanian(){
+        Intent pertanian = new Intent(getApplicationContext(),MainActivity4.class);
+        startActivity(pertanian);
+    }
+
+//    public void bukaTambah(){
+//        Intent tambah = new Intent(getApplicationContext(),TambahActivity.class);
+//        startActivity(tambah);
+//    }
 
 
     // Mengatur Button Warna setelah di pencet (On Click)
