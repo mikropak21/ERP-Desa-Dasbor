@@ -2,6 +2,7 @@ package com.example.win10.nyobaaa;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.Button;
 
 public class MainActivity3 extends AppCompatActivity
 {
@@ -11,5 +12,6 @@ public class MainActivity3 extends AppCompatActivity
 
         // Akan menampilkan page/layout pada activity_main4
         setContentView(R.layout.activity_main4);
+        Button button   =   new Button();
     }
 }
