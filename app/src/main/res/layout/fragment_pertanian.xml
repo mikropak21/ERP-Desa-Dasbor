@@ -18,7 +18,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginEnd="5pt"
         android:background="@color/putih"
-        android:onClick="onclickpad">
+        android:onClick="bukapadi">
 
         <LinearLayout
             android:layout_width="8pt"
