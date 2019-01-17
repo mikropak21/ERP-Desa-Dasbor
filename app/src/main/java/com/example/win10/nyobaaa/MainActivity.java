@@ -15,10 +15,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 
+import com.example.win10.nyobaaa.Db.Repository;
+
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
     View view;
     private DrawerLayout drawer;
+    Repository repository;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
