@@ -1,7 +1,9 @@
 <application>
   <component name="ParameterNameHintsSettings">
     <blacklists>
-      <blacklist language="Java" />
+      <blacklist language="Java">
+        <added pattern="android.widget.RelativeLayout.RelativeLayout(context)" />
+      </blacklist>
     </blacklists>
   </component>
 </application>
