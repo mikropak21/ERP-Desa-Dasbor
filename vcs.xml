@@ -70,6 +70,10 @@
           <option name="url" value="git@github.com:mitchtabian/SQLite-for-Beginners-2019.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gist.github.com/cd70814fe4ac369e3e92.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\WIN 10\AndroidStudioProjects" />
