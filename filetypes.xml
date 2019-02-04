@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="asdas" type="Android Nine-Patch" />
+      <mapping pattern="sds" type="XML" />
     </extensionMap>
   </component>
 </application>
