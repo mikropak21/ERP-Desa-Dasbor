@@ -102,6 +102,10 @@
           <option name="url" value="git@github.com:47deg/appsly-android-rest.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:Android-Workshop-Code/DatabaseIntegration.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\WIN 10\AndroidStudioProjects" />
